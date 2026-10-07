@@ -1,0 +1,162 @@
+[
+  {
+    "next": "16.4.0",
+    "nuqs": "2.10.1",
+    "react": "19.3.0",
+    "mode": "production",
+    "trials": 10,
+    "committedRollbacks": 10,
+    "pageErrors": 0,
+    "sampleEvents": [
+      {
+        "ms": 79.5,
+        "type": "select",
+        "urlSelected": null
+      },
+      {
+        "ms": 81.1,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": null,
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 81.3,
+        "type": "child-effect-setup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 81.7,
+        "type": "commit",
+        "nuqsSelected": null,
+        "nextSelected": null,
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 81.8,
+        "type": "child-effect-cleanup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 82.9,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 83.1,
+        "type": "child-effect-setup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 227.7,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      }
+    ]
+  },
+  {
+    "next": "16.4.0",
+    "nuqs": "2.10.2-beta.1",
+    "react": "19.3.0",
+    "mode": "production",
+    "trials": 10,
+    "committedRollbacks": 10,
+    "pageErrors": 0,
+    "sampleEvents": [
+      {
+        "ms": 76.4,
+        "type": "select",
+        "urlSelected": null
+      },
+      {
+        "ms": 78,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": null,
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 78.2,
+        "type": "child-effect-setup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 78.7,
+        "type": "commit",
+        "nuqsSelected": null,
+        "nextSelected": null,
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 78.8,
+        "type": "child-effect-cleanup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 80,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 80.2,
+        "type": "child-effect-setup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 224.3,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      }
+    ]
+  },
+  {
+    "next": "16.3.3",
+    "nuqs": "2.10.1",
+    "react": "19.3.0",
+    "mode": "production",
+    "trials": 10,
+    "committedRollbacks": 0,
+    "pageErrors": 0,
+    "sampleEvents": [
+      {
+        "ms": 79.5,
+        "type": "select",
+        "urlSelected": null
+      },
+      {
+        "ms": 81.4,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 82,
+        "type": "child-effect-setup",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 82.8,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      },
+      {
+        "ms": 225.7,
+        "type": "commit",
+        "nuqsSelected": "item-1",
+        "nextSelected": "item-1",
+        "urlSelected": "item-1"
+      }
+    ]
+  }
+]
