@@ -11,7 +11,7 @@ Small, self-contained experiments that reproduce bugs or test framework and libr
 - Each experiment lives in a kebab-case folder at the repository root.
 - Every experiment has one entry in the Experiments list: its link text exactly matches its directory name, its relative link points to that directory, and its single-line description states what it aims to demonstrate.
 - All apps, comparison variants, tests, and supporting files for an experiment stay inside its folder.
-- Each experiment README includes a Deploy to Vercel button generated from its GitHub subdirectory URL using Vercel's [Deploy Button parameters](https://vercel.com/docs/deploy-button/source). For experiments with multiple apps, provide a labeled button per deployable app. Document any required environment variables and deployment settings alongside the buttons.
+- Each deployable experiment documents deployment using `vercel` from its app directory, including any prerequisites, environment variables, or additional settings. For multiple apps, identify the directory to deploy for each app.
 - Experiments are independent projects, not a shared workspace: install and run commands from the relevant experiment directory.
 
 The README in each experiment explains the expected and observed behavior, what was tested, measurements, local reproduction steps, deployment instructions, configuration, limitations, and relevant upstream discussions. Results describe the tested versions and environment, not guarantees about every browser or future release.

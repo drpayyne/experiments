@@ -1,7 +1,5 @@
 # Next.js / nuqs dependent shallow update reproduction
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdrpayyne%2Fexperiments%2Ftree%2Fmain%2Fnext-nuqs-dependent-shallow-update&project-name=next-nuqs-dependent-shallow-update&repository-name=next-nuqs-dependent-shallow-update)
-
 No customer code, backend, credentials, database, or AI SDK. Only Next.js,
 React and nuqs. The Next config only scopes Turbopack to this standalone folder;
 no experimental routing/cache flags are set.
@@ -30,26 +28,16 @@ before each attempt; selecting the already-selected value is not a fresh trial.
 
 ## Deploy to Vercel
 
-Use the button above to clone this experiment's subdirectory into a new repository
-and create a Vercel project. With this method, the experiment becomes the new
-repository root: leave **Root Directory** at its default rather than setting it
-to `next-nuqs-dependent-shallow-update`. No environment variables are required.
-Review the install/build commands and Node.js version below before deploying.
+With the [Vercel CLI](https://vercel.com/docs/cli) installed, run this from the
+`next-nuqs-dependent-shallow-update` directory:
 
-To deploy directly from the full `drpayyne/experiments` repository instead:
+```sh
+vercel
+```
 
-1. Import this repository into Vercel as a new project.
-2. Set **Root Directory** to `next-nuqs-dependent-shallow-update`.
-3. Select the **Next.js** framework preset.
-4. Use `bun install --frozen-lockfile --minimum-release-age=0` as the install
-   command and `bun run build` as the build command. Keep the default output
-   directory and use a supported Node.js version, preferably 24.x to match the
-   local trials.
-5. Deploy, open the root URL with no query parameters, open the browser console,
-   and click **Select item**.
-
-Alternatively, run the Vercel CLI from this experiment directory and deploy it
-as an independent project. Do not deploy the repository root as a Next app.
+Follow the login/project prompts and accept the detected Next.js defaults. This
+deploys the local experiment without creating another Git repository. Open the
+deployment URL with no query parameters, open the console, and click **Select item**.
 
 No environment variables, credentials, database, API routes, or external services
 are required. A preview deployment of this standalone experiment has not yet
