@@ -1,5 +1,7 @@
 # Next.js / nuqs dependent shallow update reproduction
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdrpayyne%2Fexperiments%2Ftree%2Fmain%2Fnext-nuqs-dependent-shallow-update&project-name=next-nuqs-dependent-shallow-update&repository-name=next-nuqs-dependent-shallow-update)
+
 No customer code, backend, credentials, database, or AI SDK. Only Next.js,
 React and nuqs. The Next config only scopes Turbopack to this standalone folder;
 no experimental routing/cache flags are set.
@@ -27,6 +29,14 @@ below are from production builds. Reload the page without query parameters
 before each attempt; selecting the already-selected value is not a fresh trial.
 
 ## Deploy to Vercel
+
+Use the button above to clone this experiment's subdirectory into a new repository
+and create a Vercel project. With this method, the experiment becomes the new
+repository root: leave **Root Directory** at its default rather than setting it
+to `next-nuqs-dependent-shallow-update`. No environment variables are required.
+Review the install/build commands and Node.js version below before deploying.
+
+To deploy directly from the full `drpayyne/experiments` repository instead:
 
 1. Import this repository into Vercel as a new project.
 2. Set **Root Directory** to `next-nuqs-dependent-shallow-update`.
