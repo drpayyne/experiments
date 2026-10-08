@@ -5,6 +5,7 @@ Small, self-contained experiments that reproduce bugs or test framework and libr
 ## Experiments
 
 - [next-nuqs-dependent-shallow-update](./next-nuqs-dependent-shallow-update/) — Demonstrates a committed query-state rollback and child unmount when a dependent shallow update follows an asynchronous selection on Next.js 16.4.
+- [next-suspense-large-prerender](./next-suspense-large-prerender/) — Tests whether large, fully prerendered Suspense boundaries emit a fallback and hidden HTML in Next.js Cache Components and vanilla React.
 
 ## Organization
 

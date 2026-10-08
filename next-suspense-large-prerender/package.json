@@ -1,0 +1,21 @@
+{
+  "name": "next-suspense-large-prerender",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3100",
+    "build": "next build",
+    "start": "next start --port 3100",
+    "react": "NODE_ENV=production node react/server.mjs",
+    "probe": "node scripts/probe.mjs",
+    "test:browser": "node scripts/browser.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
